@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+.contents {
+  text-align: center;
+  padding: 15px 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: gray;
+  margin-top: 200px;
+}
+
+.container {
+  width: 35%;
+  margin: auto;
+  background: #eee;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  margin: 5px 30px 15px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-tweet {
+  text-transform: uppercase;
+}
+
+.btn-quote {
+  padding: 5px 15px;
+  background: transparent;
+  border: 1px solid gray;
+  font-family: calibri;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+span {
+  font-size: 1.2rem;
+  font-family: calibri;
+  font-style: italic;
+}
